@@ -1,0 +1,17 @@
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    transition: all 0.2s ease-in;
+}
+
+a:hover {
+    color: #646cff;
+}
+
+.navBar {
+    top: 0;
+    position: fixed;
+    flex-wrap: nowrap;
+}
