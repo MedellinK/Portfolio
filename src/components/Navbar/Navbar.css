@@ -12,6 +12,10 @@ a:hover {
 
 .navBar {
     top: 0;
-    position: fixed;
+    /*position: fixed;*/
     flex-wrap: nowrap;
+}
+
+.link-list {
+    flex-direction: row;
 }
