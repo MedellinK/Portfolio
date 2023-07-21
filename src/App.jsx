@@ -1,6 +1,6 @@
 import './reset.css'
 import './layout.css';
-import './App.css';
+// import './App.css';
 
 import Navbar from "./components/Navbar/Navbar.jsx";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
