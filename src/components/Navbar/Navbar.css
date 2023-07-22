@@ -7,7 +7,9 @@ a {
 }
 
 a:hover {
-    color: #646cff;
+    color: black;
+    background-color: wheat;
+    border-radius: 5px;
 }
 
 .navBar {
@@ -15,8 +17,11 @@ a:hover {
     flex-wrap: nowrap;
     align-items: center;
     justify-items: center;
+    background-color: white;
 }
 
 .link-list {
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
