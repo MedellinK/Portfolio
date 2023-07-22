@@ -11,7 +11,6 @@ export default function Navbar() {
               <Link className="class" to="/"><h3>Home</h3></Link>
                 <Link hre="#"><h3>About</h3></Link>
                 <Link hre="#"><h3>Projects</h3></Link>
-                <Link hre="#"><h3>Contact</h3></Link>
             </div>
         </div>
     </div>

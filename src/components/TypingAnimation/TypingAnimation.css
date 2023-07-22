@@ -2,7 +2,7 @@
     border-right: 2px solid white; /* Adds a blinking cursor effect */
     overflow: hidden;
     white-space: nowrap;
-    animation: typing 5s steps(100 , start), blink-caret 1s backwards infinite;
+    animation: typing 4s steps(100 , start), blink-caret 1s backwards infinite;
     animation-iteration-count: infinite;
     max-width: min-content;
 }

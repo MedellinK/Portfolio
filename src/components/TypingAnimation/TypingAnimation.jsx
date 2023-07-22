@@ -11,7 +11,7 @@ const TypingAnimation = () => {
         const interval = setInterval(() => {
             setDynamicWord(dynamicWords[index]);
             setIndex((index + 1) % dynamicWords.length);
-        }, 5000); // Change word every 2 seconds (adjust as needed)
+        }, 4000); // Change word every 2 seconds (adjust as needed)
         return () => clearInterval(interval);
     }, [index]);
 
