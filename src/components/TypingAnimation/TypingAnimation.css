@@ -1,0 +1,27 @@
+.typing-animation {
+    border-right: 2px solid white; /* Adds a blinking cursor effect */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 5s steps(100 , start), blink-caret 1s backwards infinite;
+    animation-iteration-count: infinite;
+    max-width: min-content;
+}
+
+.dynamic-word {
+    justify-items: center;
+
+    color: aqua;
+}
+
+
+
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
