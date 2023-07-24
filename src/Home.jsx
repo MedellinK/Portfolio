@@ -5,7 +5,7 @@ const home = () => {
     <div className="container">
         <div className="row">
             <div className="column">
-            <img src={"/assests/logo.png"}/>
+                <img src={"/assets/logo.jpeg"}/>
             </div>
             <div className="column">
                 <TypingAnimation />
@@ -13,11 +13,6 @@ const home = () => {
         </div>
 
     </div>
-    //   <div>
-    //   <About />
-    //   </div>
-    // <div> <Projects /> </div>
-    // <div> <Contact /> </div>
   );
 }
 
