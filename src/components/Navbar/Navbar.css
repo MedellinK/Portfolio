@@ -12,16 +12,17 @@ a:hover {
     border-radius: 5px;
 }
 
-.navBar {
-    top: 0;
-    flex-wrap: nowrap;
+.Navbar{
+    /*justify-content: center;*/
     align-items: center;
-    justify-items: center;
-    background-color: white;
+
+}
+.navLogo {
+    max-height: 5rem;
+    max-width: 5rem;
 }
 
-.link-list {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+
+h5{
+    text-decoration: underline;
 }

@@ -4,14 +4,10 @@ export default function Navbar() {
   return (
     <div className="container">
         <div className="row Navbar">
-            <div className="column">
-                <h1>Home Main</h1>
-            </div>
-            <div className="column link-list">
-              <Link className="class" to="/"><h3>Home</h3></Link>
+                <img className="navLogo" src={"/assets/logo.jpeg"}/>
                 <Link hre="#"><h3>About</h3></Link>
                 <Link hre="#"><h3>Projects</h3></Link>
-            </div>
+              <Link className="class" to="/"><h5>Top of Page</h5></Link>
         </div>
     </div>
   )
