@@ -5,16 +5,36 @@
     animation: typing 4s steps(100 , start), blink-caret 1s backwards infinite;
     animation-iteration-count: infinite;
     max-width: min-content;
+    margin-left: 10rem;
 }
 
+.typing-animation-daddy {
+    align-content: center;
+    justify-content: center;
+}
+
+.set-text {
+    margin-left: 7rem;
+/*    make the textvbigger*/
+    font-size: 2rem;
+    color: white;
+    font-family: 'Barrio', cursive;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0 0.5rem black;
+
+
+}
+
+.palabra {
+    color: aqua;
+    /*margin-right: 3rem;*/
+    display: flex;
+}
 .dynamic-word {
     justify-items: center;
-
-    color: aqua;
+    color: wheat;
 }
-
-
-
 
 @keyframes typing {
     from { width: 0; }

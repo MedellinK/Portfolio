@@ -16,12 +16,12 @@ const TypingAnimation = () => {
     }, [index]);
 
     return (
-        <div className="column">
-            <div className="row">
-                Hello, My name is Kelvyn Medellin, I'm a
+        <div className="column typing-animation-daddy">
+            <div className="row set-text">
+                Hello, My name is Kelvyn Medellin,
             </div>
             <div className="typing-animation row dynamic-word">
-                {dynamicWord}
+                I'm a<span className="palabra">{dynamicWord}</span>
             </div>
         </div>
     );
